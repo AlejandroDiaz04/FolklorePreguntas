@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "categoria": "mitos",
+    "pregunta": "¿Qué personaje mitológico paraguayo tiene los pies al revés y vive en la selva?",
+    "opciones": ["Kurupí", "El Pombero", "Jasy Jateré", "Luison"],
+    "correcta": 0
+  },
+  {
+    "id": 2,
+    "categoria": "mitos",
+    "pregunta": "¿Quién es el duende de la selva que fuma pipa y protege los animales?",
+    "opciones": ["Kurupí", "El Pombero", "La Llorona", "Anhangá"],
+    "correcta": 1
+  },
+  {
+    "id": 3,
+    "categoria": "mitos",
+    "pregunta": "¿Qué criatura paraguaya aparece al mediodía y duerme a los niños con su sombrero?",
+    "opciones": ["Jasy Jateré", "Kurupí", "El Lobizón", "El Saci"],
+    "correcta": 0
+  },
+  {
+    "id": 4,
+    "categoria": "mitos",
+    "pregunta": "¿Qué leyenda cuenta la historia de una mujer que llora buscando a sus hijos?",
+    "opciones": ["La Llorona", "La Encantada", "María Lionza", "Iara"],
+    "correcta": 0
+  },
+  {
+    "id": 5,
+    "categoria": "mitos",
+    "pregunta": "¿Cómo se llama el espíritu nocturno asociado a la luna llena en el folklore guaraní?",
+    "opciones": ["Jasy Jateré", "Tupã", "Kurupí", "Pombero"],
+    "correcta": 0
+  },
+  {
+    "id": 6,
+    "categoria": "tradiciones",
+    "pregunta": "¿En qué mes se celebra principalmente la Semana Santa en Paraguay?",
+    "opciones": ["Marzo o abril", "Diciembre", "Julio", "Octubre"],
+    "correcta": 0
+  },
+  {
+    "id": 7,
+    "categoria": "tradiciones",
+    "pregunta": "¿Qué danza tradicional paraguaya se baila en pareja con pañuelo?",
+    "opciones": ["Polca paraguaya", "Tango", "Samba", "Cumbia"],
+    "correcta": 0
+  },
+  {
+    "id": 8,
+    "categoria": "tradiciones",
+    "pregunta": "¿Qué instrumento de cuerdas es emblemático de la música paraguaya?",
+    "opciones": ["Arpa paraguaya", "Bandoneón", "Charango", "Cuatro"],
+    "correcta": 0
+  },
+  {
+    "id": 9,
+    "categoria": "tradiciones",
+    "pregunta": "¿Cómo se llama la festividad de origen guaraní que celebra la cosecha y la naturaleza?",
+    "opciones": ["Areté Guazú", "Carnaval", "Navidad", "San Juan"],
+    "correcta": 0
+  },
+  {
+    "id": 10,
+    "categoria": "tradiciones",
+    "pregunta": "¿Qué artesanía de Ñandutí es famosa en Paraguay?",
+    "opciones": ["Encaje de red circular", "Cerámica incaica", "Alpaca", "Máscaras de madera"],
+    "correcta": 0
+  },
+  {
+    "id": 11,
+    "categoria": "comidas",
+    "pregunta": "¿Cuál de estos es un pan tradicional paraguayo hecho con almidón de mandioca y queso?",
+    "opciones": ["Chipa", "Empanada", "Arepa", "Tortilla"],
+    "correcta": 0
+  },
+  {
+    "id": 12,
+    "categoria": "comidas",
+    "pregunta": "¿Qué plato paraguayo lleva carne, cebolla, queso y leche, similar a una torta salada?",
+    "opciones": ["Sopa paraguaya", "Locro", "Puchero", "Asado"],
+    "correcta": 0
+  },
+  {
+    "id": 13,
+    "categoria": "comidas",
+    "pregunta": "¿Cómo se llama la preparación a base de mandioca y queso, típica del desayuno?",
+    "opciones": ["Mbejú", "Chipa guazú", "Pastel mandi'o", "Vori vori"],
+    "correcta": 0
+  },
+  {
+    "id": 14,
+    "categoria": "comidas",
+    "pregunta": "¿Qué bebida fría a base de yerba mate es muy popular en verano en Paraguay?",
+    "opciones": ["Tereré", "Mate cocido", "Cocido", "Café"],
+    "correcta": 0
+  },
+  {
+    "id": 15,
+    "categoria": "comidas",
+    "pregunta": "¿Qué postre paraguayo se prepara con leche, azúcar y yema de huevo?",
+    "opciones": ["Dulce de leche (kaguyjy)", "Flan", "Torta negra", "Sopa inglesa"],
+    "correcta": 0
+  },
+  {
+    "id": 16,
+    "categoria": "musica",
+    "pregunta": "¿Quién es considerado el rey del polca paraguaya?",
+    "opciones": ["Emiliano R. Fernández", "Carlos Gardel", "Atahualpa Yupanqui", "Heitor Villa-Lobos"],
+    "correcta": 0
+  },
+  {
+    "id": 17,
+    "categoria": "musica",
+    "pregunta": "¿Qué género musical paraguayo tiene ritmo alegre y se baila en fiestas patronales?",
+    "opciones": ["Polca paraguaya", "Reggaetón", "Rock", "Jazz"],
+    "correcta": 0
+  },
+  {
+    "id": 18,
+    "categoria": "musica",
+    "pregunta": "¿Qué compositor paraguayo escribió 'Pájaro Campana'?",
+    "opciones": ["Agustín Barrios", "Emiliano R. Fernández", "José Asunción Flores", "Manuel Ortiz Guerrero"],
+    "correcta": 0
+  },
+  {
+    "id": 19,
+    "categoria": "musica",
+    "pregunta": "¿Qué instrumento acompaña frecuentemente al arpa en la música folklórica paraguaya?",
+    "opciones": ["Guitarra", "Piano", "Batería", "Saxofón"],
+    "correcta": 0
+  },
+  {
+    "id": 20,
+    "categoria": "musica",
+    "pregunta": "¿Cómo se llama el estilo lento y melancólico de la música paraguaya?",
+    "opciones": ["Guarania", "Cumbia", "Chamamé", "Zamba"],
+    "correcta": 0
+  },
+  {
+    "id": 21,
+    "categoria": "cultura",
+    "pregunta": "¿Cuáles son los dos idiomas oficiales de Paraguay?",
+    "opciones": ["Español y guaraní", "Español y portugués", "Guaraní y quechua", "Español y inglés"],
+    "correcta": 0
+  },
+  {
+    "id": 22,
+    "categoria": "cultura",
+    "pregunta": "¿Qué significa la palabra guaraní 'Yvy marane'ý'?",
+    "opciones": ["Tierra sin mal", "Agua pura", "Sol naciente", "Cielo azul"],
+    "correcta": 0
+  },
+  {
+    "id": 23,
+    "categoria": "cultura",
+    "pregunta": "¿En qué ciudad se encuentra la Costanera de Asunción, corazón cultural del país?",
+    "opciones": ["Asunción", "Encarnación", "Ciudad del Este", "Concepción"],
+    "correcta": 0
+  },
+  {
+    "id": 24,
+    "categoria": "cultura",
+    "pregunta": "¿Qué festividad se celebra el 14 y 15 de mayo en Paraguay?",
+    "opciones": ["Independencia del Paraguay", "Día de la Madre", "Navidad", "Día del Amigo"],
+    "correcta": 0
+  },
+  {
+    "id": 25,
+    "categoria": "cultura",
+    "pregunta": "¿Qué planta es la base de la economía y la cultura paraguaya desde la época jesuita?",
+    "opciones": ["Yerba mate", "Café", "Caña de azúcar", "Coca"],
+    "correcta": 0
+  }
+]

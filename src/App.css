@@ -1,0 +1,352 @@
+:root {
+  --color-rojo: #c8102e;
+  --color-rojo-oscuro: #9b0c24;
+  --color-azul: #0038a8;
+  --color-azul-claro: #1a5fd4;
+  --color-blanco: #ffffff;
+  --color-fondo: #f5f0e8;
+  --color-texto: #1a1a1a;
+  --color-texto-suave: #555;
+  --color-borde: #ddd5c8;
+  --color-exito: #2e7d32;
+  --color-error: #c62828;
+  --radio: 12px;
+  --sombra: 0 4px 20px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  color: var(--color-texto);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--color-fondo);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.page {
+  min-height: 100vh;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 480px;
+  background: var(--color-blanco);
+  border-radius: var(--radio);
+  padding: 2rem 1.5rem;
+  box-shadow: var(--sombra);
+  border-top: 4px solid var(--color-rojo);
+}
+
+.titulo {
+  margin: 0 0 0.5rem;
+  font-size: 1.75rem;
+  color: var(--color-azul);
+  text-align: center;
+}
+
+.subtitulo {
+  margin: 0 0 1.5rem;
+  color: var(--color-texto-suave);
+  text-align: center;
+  font-size: 1rem;
+}
+
+.form-home {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.form-home__label {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.input {
+  width: 100%;
+  min-height: 48px;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 2px solid var(--color-borde);
+  border-radius: var(--radio);
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.input:focus {
+  border-color: var(--color-azul-claro);
+}
+
+.error-msg {
+  margin: 0;
+  color: var(--color-error);
+  font-size: 0.9rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: var(--radio);
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn--primary {
+  background: var(--color-rojo);
+  color: var(--color-blanco);
+}
+
+.btn--primary:hover {
+  background: var(--color-rojo-oscuro);
+}
+
+.btn--secondary {
+  background: transparent;
+  color: var(--color-azul);
+  border: 2px solid var(--color-azul);
+}
+
+.btn--secondary:hover {
+  background: rgba(0, 56, 168, 0.08);
+}
+
+.btn--opcion {
+  width: 100%;
+  background: var(--color-blanco);
+  color: var(--color-texto);
+  border: 2px solid var(--color-borde);
+  text-align: left;
+  padding: 1rem 1.25rem;
+}
+
+.btn--opcion:hover {
+  border-color: var(--color-azul-claro);
+  background: rgba(0, 56, 168, 0.05);
+}
+
+.progress-bar {
+  width: 100%;
+  max-width: 480px;
+  margin-bottom: 1.5rem;
+}
+
+.progress-bar__label {
+  font-size: 0.9rem;
+  color: var(--color-texto-suave);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.progress-bar__track {
+  height: 8px;
+  background: var(--color-borde);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-bar__fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-rojo), var(--color-azul));
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+
+.pregunta-card {
+  width: 100%;
+  max-width: 480px;
+  background: var(--color-blanco);
+  border-radius: var(--radio);
+  padding: 1.5rem;
+  box-shadow: var(--sombra);
+}
+
+.pregunta-card__categoria {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-rojo);
+  background: rgba(200, 16, 46, 0.1);
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  margin-bottom: 1rem;
+}
+
+.pregunta-card__texto {
+  margin: 0 0 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: var(--color-azul);
+}
+
+.pregunta-card__opciones {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.card--resultado {
+  text-align: center;
+}
+
+.resultado-puntaje {
+  font-size: 4rem;
+  font-weight: 800;
+  color: var(--color-rojo);
+  margin: 0.5rem 0;
+  line-height: 1;
+}
+
+.resultado-detalle {
+  font-size: 1.1rem;
+  color: var(--color-texto-suave);
+  margin: 0 0 1rem;
+}
+
+.resultado-mensaje {
+  font-size: 1rem;
+  margin: 0 0 1.5rem;
+}
+
+.resultado-estado {
+  font-size: 0.95rem;
+  color: var(--color-texto-suave);
+  margin: 0 0 1rem;
+}
+
+.resultado-estado--ok {
+  color: var(--color-exito);
+  font-weight: 600;
+}
+
+.resultado-error {
+  margin-bottom: 1rem;
+}
+
+.resultado-error p {
+  color: var(--color-error);
+  margin: 0 0 0.75rem;
+}
+
+.resultado-acciones {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.page--ranking {
+  justify-content: flex-start;
+  padding: 2rem;
+  background: #0f172a;
+  color: var(--color-blanco);
+  min-height: 100vh;
+}
+
+.ranking-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.ranking-header h1 {
+  font-size: clamp(1.75rem, 4vw, 3rem);
+  margin: 0 0 0.5rem;
+  color: var(--color-blanco);
+}
+
+.ranking-header p {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #94a3b8;
+}
+
+.ranking-table {
+  width: 100%;
+  max-width: 900px;
+  border-collapse: collapse;
+  font-size: clamp(1rem, 2.5vw, 1.75rem);
+}
+
+.ranking-table th,
+.ranking-table td {
+  padding: 1rem 1.25rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ranking-table th {
+  color: #94a3b8;
+  font-weight: 600;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.ranking-table td:first-child {
+  width: 4rem;
+  font-size: 1.2em;
+}
+
+.ranking-table__row--top1 {
+  background: rgba(255, 215, 0, 0.12);
+}
+
+.ranking-table__row--top2 {
+  background: rgba(192, 192, 192, 0.1);
+}
+
+.ranking-table__row--top3 {
+  background: rgba(205, 127, 50, 0.1);
+}
+
+.ranking-table__empty {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #94a3b8;
+  margin-top: 3rem;
+}
+
+.ranking-error {
+  text-align: center;
+  color: #fca5a5;
+  font-size: 1.1rem;
+  max-width: 600px;
+}
+
+@media (min-width: 480px) {
+  .resultado-acciones {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .resultado-acciones .btn {
+    flex: 1;
+    max-width: 200px;
+  }
+}

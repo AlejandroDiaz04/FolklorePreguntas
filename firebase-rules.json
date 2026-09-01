@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "scores": {
+      ".read": true,
+      ".write": true,
+      "$id": {
+        ".validate": "newData.hasChildren(['nombre','puntaje','timestamp']) && newData.child('puntaje').isNumber() && newData.child('puntaje').val() >= 0 && newData.child('puntaje').val() <= 100"
+      }
+    }
+  }
+}
