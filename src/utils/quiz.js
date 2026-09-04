@@ -41,3 +41,11 @@ export function getMensajePuntaje(puntaje) {
   if (puntaje >= 50) return '¡Buen intento! Seguí aprendiendo sobre Paraguay.'
   return '¡Gracias por participar! Hay mucho folklore por descubrir.'
 }
+
+export function formatearTiempo(ms) {
+  if (ms == null || Number.isNaN(ms) || ms < 0) return '—'
+  const totalSegundos = Math.floor(ms / 1000)
+  const minutos = Math.floor(totalSegundos / 60)
+  const segundos = totalSegundos % 60
+  return `${minutos}:${String(segundos).padStart(2, '0')}`
+}

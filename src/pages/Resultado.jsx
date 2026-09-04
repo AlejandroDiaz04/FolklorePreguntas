@@ -5,12 +5,13 @@ import {
   guardarPuntaje,
   isFirebaseConfigured,
 } from '../services/firebase.js'
-import { getMensajePuntaje } from '../utils/quiz.js'
+import { formatearTiempo, getMensajePuntaje } from '../utils/quiz.js'
 
 function Resultado() {
   const navigate = useNavigate()
   const location = useLocation()
-  const { nombre, puntaje, aciertos, total, detalle } = location.state || {}
+  const { nombre, puntaje, aciertos, total, detalle, tiempoMs } =
+    location.state || {}
 
   const [guardando, setGuardando] = useState(false)
   const [guardado, setGuardado] = useState(false)
@@ -39,7 +40,7 @@ function Resultado() {
 
     async function enviarPuntaje() {
       try {
-        await guardarPuntaje({ nombre, puntaje, aciertos, total })
+        await guardarPuntaje({ nombre, puntaje, aciertos, total, tiempoMs })
         setGuardado(true)
         setError('')
       } catch {
@@ -51,7 +52,7 @@ function Resultado() {
     }
 
     enviarPuntaje()
-  }, [nombre, puntaje, aciertos, total])
+  }, [nombre, puntaje, aciertos, total, tiempoMs])
 
   if (!nombre || puntaje === undefined) return null
 
@@ -61,7 +62,7 @@ function Resultado() {
     setGuardando(true)
     setError('')
     try {
-      await guardarPuntaje({ nombre, puntaje, aciertos, total })
+      await guardarPuntaje({ nombre, puntaje, aciertos, total, tiempoMs })
       setGuardado(true)
     } catch {
       enviadoRef.current = false
@@ -83,6 +84,9 @@ function Resultado() {
         <p className="resultado-puntaje">{puntaje}</p>
         <p className="resultado-detalle">
           {aciertos} de {total} respuestas correctas
+        </p>
+        <p className="resultado-tiempo">
+          Tiempo: {formatearTiempo(tiempoMs)}
         </p>
         <p className="resultado-mensaje">{getMensajePuntaje(puntaje)}</p>
 

@@ -4,7 +4,7 @@
       ".read": true,
       ".write": true,
       "$id": {
-        ".validate": "newData.hasChildren(['nombre','puntaje','timestamp']) && newData.child('puntaje').isNumber() && newData.child('puntaje').val() >= 0 && newData.child('puntaje').val() <= 100"
+        ".validate": "newData.hasChildren(['nombre','puntaje','timestamp','tiempoMs']) && newData.child('puntaje').isNumber() && newData.child('puntaje').val() >= 0 && newData.child('puntaje').val() <= 100 && newData.child('tiempoMs').isNumber() && newData.child('tiempoMs').val() >= 1000 && newData.child('tiempoMs').val() <= 3600000"
       }
     }
   }

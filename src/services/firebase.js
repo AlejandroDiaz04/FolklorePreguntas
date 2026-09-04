@@ -26,14 +26,25 @@ export function isFirebaseConfigured() {
   return Boolean(firebaseConfig.apiKey && firebaseConfig.databaseURL)
 }
 
-export async function guardarPuntaje({ nombre, puntaje, aciertos, total }) {
+export async function guardarPuntaje({
+  nombre,
+  puntaje,
+  aciertos,
+  total,
+  tiempoMs,
+}) {
   const database = getDb()
   const scoresRef = ref(database, 'scores')
+  const tiempoNormalizado = Math.min(
+    3600000,
+    Math.max(1000, Math.round(Number(tiempoMs) || 1000)),
+  )
   await push(scoresRef, {
     nombre,
     puntaje,
     aciertos,
     total,
+    tiempoMs: tiempoNormalizado,
     timestamp: Date.now(),
   })
 }
@@ -49,6 +60,9 @@ export function suscribirRanking({ onData, onError }) {
       const scores = data
         ? Object.values(data).sort((a, b) => {
             if (b.puntaje !== a.puntaje) return b.puntaje - a.puntaje
+            const tA = a.tiempoMs ?? Number.MAX_SAFE_INTEGER
+            const tB = b.tiempoMs ?? Number.MAX_SAFE_INTEGER
+            if (tA !== tB) return tA - tB
             return a.timestamp - b.timestamp
           })
         : []

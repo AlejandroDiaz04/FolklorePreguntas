@@ -1,3 +1,5 @@
+import { formatearTiempo } from '../utils/quiz.js'
+
 const MEDALLAS = ['🥇', '🥈', '🥉']
 
 function RankingTable({ scores }) {
@@ -16,6 +18,7 @@ function RankingTable({ scores }) {
           <th>#</th>
           <th>Nombre</th>
           <th>Puntaje</th>
+          <th>Tiempo</th>
           <th>Aciertos</th>
         </tr>
       </thead>
@@ -30,6 +33,7 @@ function RankingTable({ scores }) {
             </td>
             <td>{score.nombre}</td>
             <td>{score.puntaje}</td>
+            <td>{formatearTiempo(score.tiempoMs)}</td>
             <td>
               {score.aciertos}/{score.total}
             </td>
