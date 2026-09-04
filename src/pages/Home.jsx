@@ -1,22 +1,22 @@
-import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
-  const [nombre, setNombre] = useState('')
-  const [error, setError] = useState('')
-  const navigate = useNavigate()
+  const [nombre, setNombre] = useState("");
+  const [error, setError] = useState("");
+  const navigate = useNavigate();
 
   function handleSubmit(e) {
-    e.preventDefault()
-    const trimmed = nombre.trim()
+    e.preventDefault();
+    const trimmed = nombre.trim();
 
     if (trimmed.length < 2) {
-      setError('Ingresá un nombre de al menos 2 caracteres.')
-      return
+      setError("Ingresá un nombre de al menos 2 caracteres.");
+      return;
     }
 
-    sessionStorage.setItem('jugadorNombre', trimmed)
-    navigate('/quiz', { state: { nombre: trimmed } })
+    sessionStorage.setItem("jugadorNombre", trimmed);
+    navigate("/quiz", { state: { nombre: trimmed } });
   }
 
   return (
@@ -35,11 +35,11 @@ function Home() {
             id="nombre"
             type="text"
             className="input"
-            placeholder="Ej: María"
+            placeholder="Ej: Alana"
             value={nombre}
             onChange={(e) => {
-              setNombre(e.target.value)
-              setError('')
+              setNombre(e.target.value);
+              setError("");
             }}
             maxLength={30}
             autoComplete="name"
@@ -51,7 +51,7 @@ function Home() {
         </form>
       </div>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

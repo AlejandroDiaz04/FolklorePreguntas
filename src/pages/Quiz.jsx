@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import PreguntaCard from '../components/PreguntaCard.jsx'
 import ProgressBar from '../components/ProgressBar.jsx'
@@ -19,10 +19,13 @@ function Quiz() {
   const [indice, setIndice] = useState(0)
   const [respuestas, setRespuestas] = useState([])
 
-  if (!nombre) {
-    navigate('/', { replace: true })
-    return null
-  }
+  useEffect(() => {
+    if (!nombre) {
+      navigate('/', { replace: true })
+    }
+  }, [nombre, navigate])
+
+  if (!nombre) return null
 
   const preguntaActual = preguntas[indice]
 

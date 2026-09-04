@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import {
   guardarPuntaje,
@@ -14,6 +14,7 @@ function Resultado() {
   const [guardando, setGuardando] = useState(false)
   const [guardado, setGuardado] = useState(false)
   const [error, setError] = useState('')
+  const enviadoRef = useRef(false)
 
   useEffect(() => {
     if (!nombre || puntaje === undefined) {
@@ -22,7 +23,8 @@ function Resultado() {
   }, [nombre, puntaje, navigate])
 
   useEffect(() => {
-    if (!nombre || puntaje === undefined || guardado || guardando) return
+    if (!nombre || puntaje === undefined) return
+    if (enviadoRef.current) return
 
     if (!isFirebaseConfigured()) {
       setError(
@@ -31,13 +33,16 @@ function Resultado() {
       return
     }
 
+    enviadoRef.current = true
+    setGuardando(true)
+
     async function enviarPuntaje() {
-      setGuardando(true)
       try {
         await guardarPuntaje({ nombre, puntaje, aciertos, total })
         setGuardado(true)
         setError('')
       } catch {
+        enviadoRef.current = false
         setError('No se pudo guardar el puntaje. Verificá tu conexión.')
       } finally {
         setGuardando(false)
@@ -45,17 +50,20 @@ function Resultado() {
     }
 
     enviarPuntaje()
-  }, [nombre, puntaje, aciertos, total, guardado, guardando])
+  }, [nombre, puntaje, aciertos, total])
 
   if (!nombre || puntaje === undefined) return null
 
   async function reintentar() {
+    if (guardando || guardado) return
+    enviadoRef.current = true
     setGuardando(true)
     setError('')
     try {
       await guardarPuntaje({ nombre, puntaje, aciertos, total })
       setGuardado(true)
     } catch {
+      enviadoRef.current = false
       setError('No se pudo guardar el puntaje. Verificá tu conexión.')
     } finally {
       setGuardando(false)

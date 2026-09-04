@@ -38,18 +38,24 @@ export async function guardarPuntaje({ nombre, puntaje, aciertos, total }) {
   })
 }
 
-export function suscribirRanking(callback) {
+export function suscribirRanking({ onData, onError }) {
   const database = getDb()
   const scoresRef = ref(database, 'scores')
 
-  return onValue(scoresRef, (snapshot) => {
-    const data = snapshot.val()
-    const scores = data
-      ? Object.values(data).sort((a, b) => {
-          if (b.puntaje !== a.puntaje) return b.puntaje - a.puntaje
-          return a.timestamp - b.timestamp
-        })
-      : []
-    callback(scores.slice(0, 10))
-  })
+  return onValue(
+    scoresRef,
+    (snapshot) => {
+      const data = snapshot.val()
+      const scores = data
+        ? Object.values(data).sort((a, b) => {
+            if (b.puntaje !== a.puntaje) return b.puntaje - a.puntaje
+            return a.timestamp - b.timestamp
+          })
+        : []
+      onData(scores.slice(0, 10))
+    },
+    (error) => {
+      onError?.(error)
+    },
+  )
 }

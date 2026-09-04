@@ -7,8 +7,26 @@ export function shuffle(array) {
   return copy
 }
 
+export function mezclarOpciones(pregunta) {
+  const indexed = pregunta.opciones.map((texto, indiceOriginal) => ({
+    texto,
+    indiceOriginal,
+  }))
+  const shuffled = shuffle(indexed)
+
+  return {
+    ...pregunta,
+    opciones: shuffled.map((item) => item.texto),
+    correcta: shuffled.findIndex(
+      (item) => item.indiceOriginal === pregunta.correcta,
+    ),
+  }
+}
+
 export function seleccionarPreguntas(todas, cantidad = 10) {
-  return shuffle(todas).slice(0, Math.min(cantidad, todas.length))
+  return shuffle(todas)
+    .slice(0, Math.min(cantidad, todas.length))
+    .map(mezclarOpciones)
 }
 
 export function calcularPuntaje(respuestas) {
