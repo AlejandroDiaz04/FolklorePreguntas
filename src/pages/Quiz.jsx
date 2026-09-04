@@ -31,10 +31,15 @@ function Quiz() {
 
   function handleSelect(opcionIndex) {
     const esCorrecta = opcionIndex === preguntaActual.correcta
-    const nuevasRespuestas = [
-      ...respuestas,
-      { preguntaId: preguntaActual.id, esCorrecta },
-    ]
+    const detalleItem = {
+      preguntaId: preguntaActual.id,
+      pregunta: preguntaActual.pregunta,
+      categoria: preguntaActual.categoria,
+      respuestaElegida: preguntaActual.opciones[opcionIndex],
+      respuestaCorrecta: preguntaActual.opciones[preguntaActual.correcta],
+      esCorrecta,
+    }
+    const nuevasRespuestas = [...respuestas, detalleItem]
 
     if (indice + 1 >= preguntas.length) {
       const resultado = calcularPuntaje(nuevasRespuestas)
@@ -42,6 +47,7 @@ function Quiz() {
         state: {
           nombre,
           ...resultado,
+          detalle: nuevasRespuestas,
         },
       })
       return

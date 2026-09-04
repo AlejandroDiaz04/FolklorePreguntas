@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Home() {
   const [nombre, setNombre] = useState("");
@@ -48,6 +48,9 @@ function Home() {
           <button type="submit" className="btn btn--primary">
             Jugar
           </button>
+          <Link to="/ranking" className="btn btn--secondary">
+            Ver ranking
+          </Link>
         </form>
       </div>
     </div>

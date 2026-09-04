@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
+import RevisionRespuestas from '../components/RevisionRespuestas.jsx'
 import {
   guardarPuntaje,
   isFirebaseConfigured,
@@ -9,7 +10,7 @@ import { getMensajePuntaje } from '../utils/quiz.js'
 function Resultado() {
   const navigate = useNavigate()
   const location = useLocation()
-  const { nombre, puntaje, aciertos, total } = location.state || {}
+  const { nombre, puntaje, aciertos, total, detalle } = location.state || {}
 
   const [guardando, setGuardando] = useState(false)
   const [guardado, setGuardado] = useState(false)
@@ -108,6 +109,8 @@ function Resultado() {
             )}
           </div>
         )}
+
+        <RevisionRespuestas detalle={detalle} />
 
         <div className="resultado-acciones">
           <Link to="/ranking" className="btn btn--primary">
