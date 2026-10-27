@@ -36,10 +36,10 @@ export function calcularPuntaje(respuestas) {
 }
 
 export function getMensajePuntaje(puntaje) {
-  if (puntaje >= 90) return '¡Excelente! Sos un experto en folklore paraguayo.'
-  if (puntaje >= 70) return '¡Muy bien! Conocés bastante de nuestra cultura.'
-  if (puntaje >= 50) return '¡Buen intento! Seguí aprendiendo sobre Paraguay.'
-  return '¡Gracias por participar! Hay mucho folklore por descubrir.'
+  if (puntaje >= 90) return '¡Excelente! Sos un verdadero ciberguardián.'
+  if (puntaje >= 70) return '¡Muy bien! Sabés cuidarte en Internet.'
+  if (puntaje >= 50) return '¡Buen intento! Repasá las respuestas para navegar más seguro.'
+  return '¡Gracias por participar! Revisá las respuestas: cuidarte en línea se aprende.'
 }
 
 export function formatearTiempo(ms) {

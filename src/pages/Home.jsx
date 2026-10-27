@@ -22,9 +22,10 @@ function Home() {
   return (
     <div className="page page--home">
       <div className="card">
-        <h1 className="titulo">Quiz de Folklore Paraguayo</h1>
+        <h1 className="titulo">Ciberguardianes: Quiz de Seguridad Digital</h1>
         <p className="subtitulo">
-          Respondé 10 preguntas sobre mitos, tradiciones, comidas y cultura.
+          Respondé 10 situaciones sobre contraseñas, estafas, privacidad y
+          convivencia en Internet.
         </p>
 
         <form onSubmit={handleSubmit} className="form-home">

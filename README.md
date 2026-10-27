@@ -1,4 +1,4 @@
-﻿# Quiz de Folklore Paraguayo
+﻿# Ciberguardianes: Quiz de Seguridad Digital
 
 App web para un stand con QR: los visitantes juegan desde el celular y el monitor muestra el ranking en tiempo real.
 
@@ -83,7 +83,7 @@ Archivo: `src/data/preguntas.json`
 ```json
 {
   "id": 1,
-  "categoria": "mitos",
+  "categoria": "seguridad",
   "pregunta": "Texto de la pregunta",
   "opciones": ["A", "B", "C", "D"],
   "correcta": 0

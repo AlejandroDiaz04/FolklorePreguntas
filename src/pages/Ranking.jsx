@@ -49,7 +49,7 @@ function Ranking() {
         <Link to="/" className="btn btn--ranking-back">
           ← Volver
         </Link>
-        <h1>Ranking — Quiz de Folklore Paraguayo</h1>
+        <h1>Ranking — Ciberguardianes</h1>
         <p>Top 10 en tiempo real</p>
       </header>
 

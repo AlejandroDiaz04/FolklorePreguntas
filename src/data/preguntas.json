@@ -1,601 +1,361 @@
 [
   {
     "id": 1,
-    "categoria": "cultura",
-    "pregunta": "¿Cuáles son los idiomas oficiales del Paraguay?",
+    "categoria": "seguridad",
+    "pregunta": "Tu mejor amigo te dice: «Prestame tu contraseña del juego, te subo de nivel mientras estás en clase». ¿Qué hacés?",
     "opciones": [
-      "Español y portugués",
-      "Español y guaraní",
-      "Guaraní e inglés",
-      "Español y alemán"
+      "Se la doy: es mi amigo de toda la vida.",
+      "Se la doy y después la cambio.",
+      "No se la doy: la contraseña es como la llave de mi casa.",
+      "Se la doy, pero le pido que no entre a mis mensajes."
     ],
-    "correcta": 1
+    "correcta": 2
   },
   {
     "id": 2,
-    "categoria": "cultura",
-    "pregunta": "¿Qué es el jopara?",
+    "categoria": "seguridad",
+    "pregunta": "Vas a crear una cuenta nueva para tu videojuego. ¿Cuál de estas contraseñas es la más difícil de adivinar para otra persona?",
     "opciones": [
-      "Una comida tradicional",
-      "Una danza paraguaya",
-      "Una mezcla de español y guaraní",
-      "Un instrumento musical"
+      "12345678",
+      "lucas2013 (mi nombre y mi año de nacimiento)",
+      "PelusaMiPerro2013",
+      "Cuando.llueve.tomo.3.tereré!"
     ],
-    "correcta": 2
+    "correcta": 3
   },
   {
     "id": 3,
-    "categoria": "cultura",
-    "pregunta": "¿Qué significa “aguyje”?",
+    "categoria": "seguridad",
+    "pregunta": "Un compañero logró adivinar tu contraseña. ¿Qué podría evitar que entre igual a tu cuenta?",
     "opciones": [
-      "Gracias",
-      "Buenos días",
-      "Hasta mañana",
-      "Bienvenido"
+      "Cambiar mi nombre de usuario.",
+      "Tener muchos amigos agregados en el juego.",
+      "Tener activada la verificación en dos pasos (un código extra en mi celular).",
+      "Nada: si ya adivinó la contraseña, entra igual."
     ],
-    "correcta": 0
+    "correcta": 2
   },
   {
     "id": 4,
-    "categoria": "cultura",
-    "pregunta": "¿Qué significa “mba’éichapa”?",
+    "categoria": "seguridad",
+    "pregunta": "No podés entrar a tu cuenta y tus amigos te avisan que desde tu perfil les están pidiendo plata. ¿Qué hacés primero?",
     "opciones": [
-      "¿Dónde estás?",
-      "Muchas gracias",
-      "Buenas noches",
-      "¿Cómo estás?"
+      "Les escribo a mis amigos para que no respondan y recupero la cuenta con ayuda de un adulto.",
+      "Espero unos días: capaz se arregla solo.",
+      "Creo una cuenta nueva y abandono la anterior.",
+      "Le escribo al que me la robó para pedirle que me la devuelva."
     ],
-    "correcta": 3
+    "correcta": 0
   },
   {
     "id": 5,
-    "categoria": "cultura",
-    "pregunta": "¿Cuál es una de las bebidas tradicionales más representativas del Paraguay?",
+    "categoria": "seguridad",
+    "pregunta": "Te llega un mensaje: «¡Ganaste 5.000 monedas gratis! Entrá a este link y poné tu usuario y contraseña». ¿Qué hacés?",
     "opciones": [
-      "Café",
-      "Tereré",
-      "Chocolate caliente",
-      "Té negro"
+      "Entro rápido, antes de que se acabe el premio.",
+      "Se lo reenvío a mis amigos para que también ganen.",
+      "Entro al link, pero no pongo mi contraseña.",
+      "No toco el link y se lo cuento a un adulto de confianza."
     ],
-    "correcta": 1
+    "correcta": 3
   },
   {
     "id": 6,
-    "categoria": "cultura",
-    "pregunta": "¿Con qué tipo de agua se prepara tradicionalmente el tereré?",
+    "categoria": "seguridad",
+    "pregunta": "Te llega por WhatsApp un audio que dice: «Mañana suspenden las clases por una emergencia. ¡Reenvialo a todos!». ¿Qué hacés primero?",
     "opciones": [
-      "Agua caliente",
-      "Agua tibia",
-      "Agua fría",
-      "Agua con leche"
-    ],
-    "correcta": 2
-  },
-  {
-    "id": 7,
-    "categoria": "cultura",
-    "pregunta": "¿Cómo se llama el recipiente utilizado para tomar tereré?",
-    "opciones": [
-      "Guampa",
-      "Kambuchi",
-      "Cántaro",
-      "Mate cocido"
+      "Reviso en el grupo oficial del colegio o en medios confiables antes de compartirlo.",
+      "Lo reenvío rápido, por si es verdad.",
+      "Lo reenvío solo a mi familia, así no armo tanto lío.",
+      "Lo escucho otra vez: si suena convincente, debe ser verdad."
     ],
     "correcta": 0
   },
   {
-    "id": 8,
-    "categoria": "cultura",
-    "pregunta": "¿Cómo se llama el utensilio por el que se toma el tereré?",
+    "id": 7,
+    "categoria": "seguridad",
+    "pregunta": "Te escribe un número desconocido: «Hola, soy tu primo, cambié de número. Necesito que me pases saldo urgente». ¿Qué hacés?",
     "opciones": [
-      "Cuchara",
-      "Pajita",
-      "Sorbete",
-      "Bombilla"
-    ],
-    "correcta": 3
-  },
-  {
-    "id": 9,
-    "categoria": "cultura",
-    "pregunta": "¿Qué son los pohã ñana?",
-    "opciones": [
-      "Danzas tradicionales",
-      "Plantas medicinales",
-      "Instrumentos musicales",
-      "Prendas típicas"
+      "Le mando el saldo: dice que es urgente.",
+      "Llamo a mi primo a su número de siempre para confirmar si es él.",
+      "Le paso el número de mis papás para que les pida a ellos.",
+      "Le mando un poco de saldo nomás, por las dudas."
     ],
     "correcta": 1
   },
   {
-    "id": 10,
-    "categoria": "cultura",
-    "pregunta": "¿En qué año la tradición del tereré fue reconocida por la UNESCO como Patrimonio Cultural Inmaterial de la Humanidad?",
+    "id": 8,
+    "categoria": "seguridad",
+    "pregunta": "Tocás un link y se abre una página igual a la de tu red social, pero la dirección dice «1nstagram-premios.net». Te pide usuario y contraseña. ¿Qué hacés?",
     "opciones": [
-      "2015",
-      "2018",
-      "2020",
-      "2024"
+      "Pongo mis datos: la página se ve idéntica a la verdadera.",
+      "Pongo mis datos pero cambio la contraseña después.",
+      "Cierro la página: la dirección es falsa, aunque se vea igual.",
+      "Pruebo con una contraseña equivocada a ver qué pasa."
     ],
     "correcta": 2
   },
   {
-    "id": 11,
-    "categoria": "comidas",
-    "pregunta": "¿Cuál es uno de los ingredientes principales de la chipa?",
+    "id": 9,
+    "categoria": "seguridad",
+    "pregunta": "Un perfil con el nombre y las fotos de tu prima te escribe pidiéndote el código que te acaba de llegar por mensaje. ¿Qué hacés?",
     "opciones": [
-      "Almidón de mandioca",
-      "Harina de avena",
-      "Arroz",
-      "Papa"
-    ],
-    "correcta": 0
-  },
-  {
-    "id": 12,
-    "categoria": "comidas",
-    "pregunta": "¿Qué lleva en su interior la chipa so’o?",
-    "opciones": [
-      "Dulce de guayaba",
-      "Choclo",
-      "Poroto",
-      "Carne"
+      "Se lo mando: es mi prima y lo necesita.",
+      "Se lo mando y le pido que me explique después.",
+      "Le mando solo la mitad del código.",
+      "No mando el código y la llamo para avisarle que están usando su nombre."
     ],
     "correcta": 3
   },
   {
-    "id": 13,
-    "categoria": "comidas",
-    "pregunta": "¿Cómo se cocina tradicionalmente la chipa caburé?",
+    "id": 10,
+    "categoria": "seguridad",
+    "pregunta": "En un juego en línea, un extraño te ofrece recargarte diamantes o pases en el juego de manera gratuita si le pasás tu usuario y contraseña «solo un ratito». ¿Qué hacés?",
     "opciones": [
-      "Hervida en agua",
-      "Alrededor de un palo sobre el fuego",
-      "Frita en aceite",
-      "Al vapor"
+      "Se la paso, pero después cambio la clave.",
+      "Le digo que no, porque mi cuenta es solo mía, y lo reporto.",
+      "Se la paso si me muestra que tiene un buen nivel.",
+      "Se la paso solo si ya jugamos varias veces juntos."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 11,
+    "categoria": "seguridad",
+    "pregunta": "Ves un video donde un famoso (o un compañero tuyo) dice algo muy escandaloso. Parece real, pero algo se ve raro. ¿Cómo comprobás si es verdad?",
+    "opciones": [
+      "Si tiene muchas vistas y comentarios, es real.",
+      "Si se ve y se escucha muy bien, es real.",
+      "Les pregunto a otros en los comentarios.",
+      "Busco si medios confiables o la propia persona lo confirmaron."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 12,
+    "categoria": "seguridad",
+    "pregunta": "Jugando en línea, un jugador que no conocés te escribe: «¡Sos un crack! ¿En qué barrio vivís? Te quiero mandar un regalo». ¿Qué hacés?",
+    "opciones": [
+      "No le digo nada de dónde vivo ni estudio, y lo bloqueo.",
+      "Le digo solo mi barrio, pero no mi calle.",
+      "Le paso el nombre de mi colegio, no el de mi casa.",
+      "Le invento otra ciudad para despistarlo y sigo chateando."
+    ],
+    "correcta": 0
+  },
+  {
+    "id": 13,
+    "categoria": "seguridad",
+    "pregunta": "Querés subir una foto con tu uniforme, donde se ve el nombre de tu colegio, a un perfil público. ¿Qué es lo más inteligente?",
+    "opciones": [
+      "Subirla igual: la ven solo mis amigos, creo.",
+      "Poner el perfil en privado y recortar lo que muestre dónde estudio.",
+      "Subirla con la ubicación activada para que mis amigos sepan dónde estoy.",
+      "Subirla como historia, porque desaparece a las 24 horas."
     ],
     "correcta": 1
   },
   {
     "id": 14,
-    "categoria": "comidas",
-    "pregunta": "¿Cuál es el ingrediente principal de la chipa guasu?",
+    "categoria": "seguridad",
+    "pregunta": "Te llega una solicitud de alguien que dice tener 12 años, con la foto de un chico/a de tu edad. Quiere chatear en privado y no lo/la conocés en persona. ¿Qué hacés?",
     "opciones": [
-      "Mandioca",
-      "Arroz",
-      "Choclo",
-      "Batata"
+      "No acepto: en Internet cualquiera puede fingir ser otra persona.",
+      "Acepto, porque tiene mi edad.",
+      "Acepto, pero no le cuento nada personal.",
+      "Le pido que me mande otra foto para comprobar que es real."
     ],
-    "correcta": 2
+    "correcta": 0
   },
   {
     "id": 15,
-    "categoria": "comidas",
-    "pregunta": "A pesar de su nombre, ¿cómo es la sopa paraguaya?",
+    "categoria": "seguridad",
+    "pregunta": "Una app te ofrece mostrar tu ubicación en tiempo real a tus contactos. ¿Qué es lo más prudente?",
     "opciones": [
-      "Una preparación sólida y salada",
-      "Una bebida caliente",
-      "Una sopa líquida",
-      "Un postre dulce"
+      "Activarla solo con mi familia o amigos cercanos y cuando haga falta.",
+      "Activarla para todos: así me encuentran más fácil.",
+      "Activarla solo mientras juego.",
+      "Activarla siempre: total, mi perfil es privado."
     ],
     "correcta": 0
   },
   {
     "id": 16,
-    "categoria": "comidas",
-    "pregunta": "¿Qué comida paraguaya es redonda o plana y se prepara con almidón y queso?",
+    "categoria": "seguridad",
+    "pregunta": "Una página te dice: «Para verificar que sos mayor, cargá el número de la tarjeta de un adulto. No se te cobrará nada». ¿Qué hacés?",
     "opciones": [
-      "Vori vori",
-      "Mbejú",
-      "Koserevá",
-      "Chipa so’o"
+      "Cargo la tarjeta: dice claramente que no me van a cobrar.",
+      "No cargo nada y le muestro la página a un adulto.",
+      "Cargo un número inventado para pasar la verificación.",
+      "Le pido la tarjeta a un hermano mayor."
     ],
     "correcta": 1
   },
   {
     "id": 17,
-    "categoria": "comidas",
-    "pregunta": "¿Qué plato contiene pequeñas bolitas de harina de maíz y queso dentro de un caldo?",
+    "categoria": "seguridad",
+    "pregunta": "Alguien que conociste en línea te trata muy bien, te hace regalos en el juego y te dice: «Mejor hablemos por privado y no le cuentes a tus papás, no lo van a entender». ¿Qué hacés?",
     "opciones": [
-      "Sopa paraguaya",
-      "Chipa guasu",
-      "Mbejú",
-      "Vori vori"
+      "Sigo hablando en privado: hasta ahora siempre fue bueno conmigo.",
+      "Sigo hablando pero no le doy datos personales.",
+      "Le cuento a un adulto de confianza, porque pedir secreto es una señal de alerta.",
+      "Le pregunto por qué quiere que sea un secreto y decido después."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "id": 18,
-    "categoria": "comidas",
-    "pregunta": "¿Qué comida tradicional se prepara con mandioca y carne?",
+    "categoria": "seguridad",
+    "pregunta": "Vas a publicar un comentario burlándote de alguien. Un amigo te dice que en unos años eso puede seguir ahí. ¿Cómo lo ves?",
     "opciones": [
-      "Koserevá",
-      "Chipa caburé",
-      "Pajagua mascada",
-      "Ka’i ladrillo"
+      "Lo publico: en unos años nadie se va a acordar.",
+      "Lo publico y lo borro al rato, así no queda.",
+      "Lo publico desde una cuenta falsa.",
+      "No lo publico: lo que subo hoy puede seguir apareciendo mucho tiempo después."
     ],
-    "correcta": 2
+    "correcta": 3
   },
   {
     "id": 19,
-    "categoria": "comidas",
-    "pregunta": "¿Qué postre tradicional se prepara con naranja agria y miel de caña?",
+    "categoria": "seguridad",
+    "pregunta": "Estás en el shopping y aparece una red WiFi abierta llamada «WiFi_Gratis». ¿Qué es lo más seguro?",
     "opciones": [
-      "Kivevé",
-      "Koserevá",
-      "Mbejú",
-      "Chipa guasu"
+      "Me conecto solo para ver videos, sin poner contraseñas ni datos.",
+      "Me conecto y entro a todas mis cuentas, total es gratis.",
+      "Me conecto y aprovecho para revisar la cuenta del banco de mi mamá.",
+      "Me conecto y hago una compra en línea, que es más rápido que con datos."
     ],
-    "correcta": 1
+    "correcta": 0
   },
   {
     "id": 20,
-    "categoria": "comidas",
-    "pregunta": "¿Durante qué celebración se acostumbra preparar chipa en familia?",
+    "categoria": "seguridad",
+    "pregunta": "Una página ofrece descargar gratis un juego que normalmente se paga. ¿Qué hacés?",
     "opciones": [
-      "Semana Santa",
-      "Año Nuevo",
-      "Día de la Madre",
-      "Carnaval"
+      "Lo descargo: es mi día de suerte.",
+      "No lo descargo: esas descargas suelen traer virus escondidos.",
+      "Lo descargo y le paso el link a mis amigos.",
+      "Lo descargo en la computadora del colegio, no en la mía."
     ],
-    "correcta": 0
+    "correcta": 1
   },
   {
     "id": 21,
-    "categoria": "musica",
-    "pregunta": "¿Quién creó la guarania?",
+    "categoria": "seguridad",
+    "pregunta": "Descargaste un juego de colorear y te pide acceso a tu cámara, tu micrófono y tus contactos. ¿Qué hacés?",
     "opciones": [
-      "Agustín Barrios",
-      "Emiliano R. Fernández",
-      "Luis Alberto del Paraná",
-      "José Asunción Flores"
+      "Acepto todo, así funciona mejor.",
+      "Acepto solo el micrófono, que total no importa.",
+      "No acepto los permisos que no tienen sentido y consulto con un adulto.",
+      "Acepto todo ahora y después los saco, si me acuerdo."
     ],
-    "correcta": 3
+    "correcta": 2
   },
   {
     "id": 22,
-    "categoria": "musica",
-    "pregunta": "¿Cómo se caracteriza generalmente la guarania?",
+    "categoria": "seguridad",
+    "pregunta": "Mientras navegás aparece una ventana roja: «¡ATENCIÓN! Tu celular tiene 5 virus. Tocá acá para limpiarlo». ¿Qué hacés?",
     "opciones": [
-      "Por ser rápida y festiva",
-      "Por su ritmo lento y melancólico",
-      "Por interpretarse solo con tambores",
-      "Por no tener letra"
-    ],
-    "correcta": 1
-  },
-  {
-    "id": 23,
-    "categoria": "musica",
-    "pregunta": "¿Cuándo se celebra el Día Nacional de la Guarania?",
-    "opciones": [
-      "14 de mayo",
-      "22 de agosto",
-      "27 de agosto",
-      "29 de septiembre"
+      "Toco rápido para limpiarlo antes de que se rompa.",
+      "Llamo al número de teléfono que aparece en el cartel.",
+      "Cierro la ventana: ese aviso es falso.",
+      "Toco el cartel solo para ver cuáles son los virus."
     ],
     "correcta": 2
   },
   {
-    "id": 24,
-    "categoria": "musica",
-    "pregunta": "¿Qué género musical paraguayo tiene un ritmo alegre y bailable?",
+    "id": 23,
+    "categoria": "seguridad",
+    "pregunta": "Te llega un correo de alguien que no conocés con un archivo adjunto llamado «fotos_de_la_fiesta.exe». ¿Qué hacés?",
     "opciones": [
-      "Polca paraguaya",
-      "Tango",
-      "Chamamé",
-      "Zamba"
-    ],
-    "correcta": 0
-  },
-  {
-    "id": 25,
-    "categoria": "musica",
-    "pregunta": "¿Qué instrumento es símbolo de la cultura musical paraguaya?",
-    "opciones": [
-      "Piano",
-      "Bandoneón",
-      "Saxofón",
-      "Arpa paraguaya"
+      "Lo abro para ver de qué fiesta se trata.",
+      "Lo descargo y lo abro solo si pesa poco.",
+      "Se lo reenvío a un amigo para que lo abra él.",
+      "No lo abro y lo borro."
     ],
     "correcta": 3
   },
   {
-    "id": 26,
-    "categoria": "musica",
-    "pregunta": "¿Qué instrumento tocaba principalmente Agustín Barrios Mangoré?",
+    "id": 24,
+    "categoria": "seguridad",
+    "pregunta": "Mientras jugás una partida, un jugador te insulta una y otra vez. ¿Cuál es la mejor jugada?",
     "opciones": [
-      "Arpa",
-      "Guitarra",
-      "Violín",
-      "Acordeón"
+      "Insultarlo más fuerte para que se calle.",
+      "Bloquearlo, denunciarlo en el juego y contárselo a alguien de confianza.",
+      "Dejar de jugar y no decirle nada a nadie.",
+      "Pedirles a mis amigos que entren a insultarlo conmigo."
     ],
     "correcta": 1
   },
   {
-    "id": 27,
-    "categoria": "musica",
-    "pregunta": "¿Quién es reconocido como compositor de “Pájaro campana”?",
+    "id": 25,
+    "categoria": "seguridad",
+    "pregunta": "En el grupo de WhatsApp del curso, varios se burlan de un compañero haciendo stickers con su imagen. Vos no los hiciste. ¿Qué es lo mejor que podés hacer?",
     "opciones": [
-      "José Asunción Flores",
-      "Demetrio Ortiz",
-      "Félix Pérez Cardozo",
-      "Luis Alberto del Paraná"
+      "Mirar y no hacer nada: no es mi problema.",
+      "No reenviarlos ni reírme, apoyar a mi compañero y avisar a un docente.",
+      "Reírme, pero sin reenviarlos.",
+      "Salir del grupo sin decir nada."
+    ],
+    "correcta": 1
+  },
+  {
+    "id": 26,
+    "categoria": "seguridad",
+    "pregunta": "Alguien con quien chateás hace semanas te pide una foto y te dice: «Si no me la mandás, le cuento a todos tu secreto». ¿Qué hacés?",
+    "opciones": [
+      "La mando una sola vez para que me deje en paz.",
+      "Le pido que prometa que no la va a mostrar y se la mando.",
+      "No mando nada, guardo las capturas, lo bloqueo y pido ayuda a un adulto.",
+      "Dejo de contestar y espero a que se le pase."
     ],
     "correcta": 2
   },
   {
-    "id": 28,
-    "categoria": "musica",
-    "pregunta": "¿A qué género musical pertenece “Recuerdos de Ypacaraí”?",
+    "id": 27,
+    "categoria": "seguridad",
+    "pregunta": "Se viraliza un reto en redes: hay que hacer algo peligroso (como aguantar la respiración hasta marearse) y quienes lo hacen consiguen miles de «me gusta». Tus amigos ya lo hicieron. ¿Qué hacés?",
     "opciones": [
-      "Guarania",
-      "Tango",
-      "Reguetón",
-      "Vals peruano"
+      "Lo hago: si lo hace todo el mundo, no debe ser tan peligroso.",
+      "Lo hago, pero con alguien grabándome por si pasa algo.",
+      "Lo hago con cuidado, una sola vez.",
+      "No lo hago, aviso a un adulto y reporto el video."
+    ],
+    "correcta": 3
+  },
+  {
+    "id": 28,
+    "categoria": "seguridad",
+    "pregunta": "Sacaste una foto graciosa de un compañero que no se dio cuenta y querés subirla a tu estado. ¿Qué es lo correcto?",
+    "opciones": [
+      "Preguntarle primero y no subirla si dice que no.",
+      "Subirla sin etiquetarlo, así no se entera.",
+      "Subirla: es solo una broma.",
+      "Mandarla solo a un grupo chico de amigos."
     ],
     "correcta": 0
   },
   {
     "id": 29,
-    "categoria": "musica",
-    "pregunta": "¿Qué artista paraguayo fue conocido internacionalmente como cantante y líder de Los Paraguayos?",
+    "categoria": "seguridad",
+    "pregunta": "Un amigo te cuenta que lo están amenazando por internet y te hace prometer que no se lo digas a nadie. ¿Qué hacés?",
     "opciones": [
-      "Emiliano R. Fernández",
-      "José Asunción Flores",
-      "Agustín Barrios",
-      "Luis Alberto del Paraná"
+      "Lo acompaño y lo ayudo a contarle a un adulto de confianza.",
+      "Le guardo el secreto: se lo prometí.",
+      "Le digo que lo bloquee y no hago nada más.",
+      "Les cuento a los demás compañeros para que lo apoyen."
     ],
-    "correcta": 3
+    "correcta": 0
   },
   {
     "id": 30,
-    "categoria": "musica",
-    "pregunta": "¿Qué instrumentos suelen acompañar la música folclórica paraguaya?",
+    "categoria": "seguridad",
+    "pregunta": "Te reenvían la captura de una conversación privada de una compañera, con cosas íntimas. Varios ya la están pasando. ¿Qué hacés?",
     "opciones": [
-      "Piano y batería",
-      "Arpa y guitarra",
-      "Trompeta y saxofón",
-      "Flauta y violonchelo"
-    ],
-    "correcta": 1
-  },
-  {
-    "id": 31,
-    "categoria": "musica",
-    "pregunta": "¿Qué danza tradicional consiste en bailar equilibrando botellas sobre la cabeza?",
-    "opciones": [
-      "Pericón",
-      "Malambo",
-      "Danza de la botella",
-      "Zamba"
-    ],
-    "correcta": 2
-  },
-  {
-    "id": 32,
-    "categoria": "musica",
-    "pregunta": "¿Qué ritmo baila tradicionalmente una galopera?",
-    "opciones": [
-      "Galopa",
-      "Tango",
-      "Rock",
-      "Bolero"
-    ],
-    "correcta": 0
-  },
-  {
-    "id": 33,
-    "categoria": "artesanias",
-    "pregunta": "¿Cómo se llama la blusa tradicional utilizada por la mujer paraguaya?",
-    "opciones": [
-      "Rebozo",
-      "Mantilla",
-      "Kimono",
-      "Typói"
-    ],
-    "correcta": 3
-  },
-  {
-    "id": 34,
-    "categoria": "artesanias",
-    "pregunta": "¿Cuál de estas prendas forma parte de la vestimenta tradicional masculina paraguaya?",
-    "opciones": [
-      "Boina francesa",
-      "Poncho",
-      "Corbata de moño",
-      "Sombrero mexicano"
-    ],
-    "correcta": 1
-  },
-  {
-    "id": 35,
-    "categoria": "artesanias",
-    "pregunta": "¿Cómo se llama el peine decorativo utilizado en el cabello de las bailarinas paraguayas?",
-    "opciones": [
-      "Jeguaka",
-      "Ñandutí",
-      "Kyguá vera",
-      "Typói"
-    ],
-    "correcta": 2
-  },
-  {
-    "id": 36,
-    "categoria": "artesanias",
-    "pregunta": "¿Qué significa “ñandutí” en guaraní?",
-    "opciones": [
-      "Tela de araña",
-      "Flor blanca",
-      "Hilo brillante",
-      "Tejido pequeño"
-    ],
-    "correcta": 0
-  },
-  {
-    "id": 37,
-    "categoria": "artesanias",
-    "pregunta": "¿Qué ciudad es conocida como la cuna del ñandutí?",
-    "opciones": [
-      "Areguá",
-      "Caacupé",
-      "Villarrica",
-      "Itauguá"
-    ],
-    "correcta": 3
-  },
-  {
-    "id": 38,
-    "categoria": "artesanias",
-    "pregunta": "¿Qué localidad es conocida como la cuna del ao po’i?",
-    "opciones": [
-      "Luque",
-      "Yataity del Guairá",
-      "Piribebuy",
-      "San Bernardino"
-    ],
-    "correcta": 1
-  },
-  {
-    "id": 39,
-    "categoria": "artesanias",
-    "pregunta": "¿Qué ciudad paraguaya se destaca por sus trabajos de filigrana?",
-    "opciones": [
-      "Paraguarí",
-      "Tobatí",
-      "Luque",
-      "Pilar"
-    ],
-    "correcta": 2
-  },
-  {
-    "id": 40,
-    "categoria": "artesanias",
-    "pregunta": "¿De qué ciudad es originario el tradicional poncho para’i de 60 listas?",
-    "opciones": [
-      "Piribebuy",
-      "Areguá",
-      "Itauguá",
-      "Encarnación"
-    ],
-    "correcta": 0
-  },
-  {
-    "id": 41,
-    "categoria": "mitos",
-    "pregunta": "¿Qué personaje mitológico es conocido como protector de los montes y los animales?",
-    "opciones": [
-      "Luisón",
-      "Kurupí",
-      "Moñái",
-      "Pombero"
-    ],
-    "correcta": 3
-  },
-  {
-    "id": 42,
-    "categoria": "mitos",
-    "pregunta": "¿Qué personaje mitológico aparece principalmente durante la siesta?",
-    "opciones": [
-      "Teju Jagua",
-      "Jasy Jateré",
-      "Mbói Tu’i",
-      "Ao Ao"
-    ],
-    "correcta": 1
-  },
-  {
-    "id": 43,
-    "categoria": "mitos",
-    "pregunta": "¿Qué personaje mitológico está relacionado con la tradición del séptimo hijo varón?",
-    "opciones": [
-      "Luisón",
-      "Pombero",
-      "Jasy Jateré",
-      "Moñái"
-    ],
-    "correcta": 0
-  },
-  {
-    "id": 44,
-    "categoria": "mitos",
-    "pregunta": "¿Quiénes son los padres de los siete monstruos de la mitología guaraní?",
-    "opciones": [
-      "Pombero y Malavisión",
-      "Tupã y Jasy",
-      "Tau y Kerana",
-      "Luisón y Porãsy"
-    ],
-    "correcta": 2
-  },
-  {
-    "id": 45,
-    "categoria": "mitos",
-    "pregunta": "¿Qué criatura mitológica tiene cuerpo de lagarto y siete cabezas de perro?",
-    "opciones": [
-      "Ao Ao",
-      "Moñái",
-      "Kurupí",
-      "Teju Jagua"
-    ],
-    "correcta": 3
-  },
-  {
-    "id": 46,
-    "categoria": "mitos",
-    "pregunta": "¿Qué criatura posee cuerpo de serpiente y cabeza de loro?",
-    "opciones": [
-      "Luisón",
-      "Mbói Tu’i",
-      "Pombero",
-      "Jasy Jateré"
-    ],
-    "correcta": 1
-  },
-  {
-    "id": 47,
-    "categoria": "tradiciones",
-    "pregunta": "¿En qué mes se celebra tradicionalmente la fiesta de San Juan?",
-    "opciones": [
-      "Junio",
-      "Marzo",
-      "Agosto",
-      "Diciembre"
-    ],
-    "correcta": 0
-  },
-  {
-    "id": 48,
-    "categoria": "tradiciones",
-    "pregunta": "¿Qué juego de San Juan consiste en patear una pelota encendida?",
-    "opciones": [
-      "Toro candil",
-      "Carrera vosa",
-      "Pelota tata",
-      "Kambuchi jejoka"
-    ],
-    "correcta": 2
-  },
-  {
-    "id": 49,
-    "categoria": "tradiciones",
-    "pregunta": "¿En qué juego una persona con los ojos vendados intenta romper una vasija de barro?",
-    "opciones": [
-      "Pelota tata",
-      "Paila jeheréi",
-      "Toro candil",
-      "Kambuchi jejoka"
-    ],
-    "correcta": 3
-  },
-  {
-    "id": 50,
-    "categoria": "tradiciones",
-    "pregunta": "¿En honor a qué santo se realiza la tradicional festividad de Kamba Kua?",
-    "opciones": [
-      "San Juan",
-      "San Baltasar",
-      "San Blas",
-      "San Roque"
+      "La reenvío: total, ya la tienen todos.",
+      "No la reenvío, la borro y aviso a un adulto de lo que está circulando.",
+      "La guardo pero no se la mando a nadie.",
+      "Se la muestro a ella para que sepa, y después la borro."
     ],
     "correcta": 1
   }
